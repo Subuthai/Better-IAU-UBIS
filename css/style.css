@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f3f5f9;
+}
+
+.wrapper .sidebar {
+  height: 100%;
+  width: 85px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0e4486;
+  transition: 0.5s;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-top: 60px;
+  white-space: nowrap;
+}
+
+.wrapper .sidebar:hover {
+  overflow-y: scroll;
+}
+
+.wrapper .sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #b1b1b1;
+  display: block;
+  transition: padding 0.5s;
+}
+
+.wrapper .sidebar a:hover {
+  color: #f1f1f1;
+  transition: ease 0.5s;
+}
+
+.wrapper .sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: -40px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.wrapper .sidebar .material-icons,
+.icon-text {
+  vertical-align: middle;
+}
+
+.wrapper .sidebar .material-icons {
+  margin-right: 26px;
+}
+
+.container {
+  padding: 16px;
+  margin-left: 85px;
+  transition: ease 0.5s;
+}
+
+.container .header {
+  padding: 17px;
+  background: #fff;
+  text-align: center;
+  color: #717171;
+  border-bottom: 1px solid #e0e4e8;
+  border-radius: 7px;
+  box-shadow: 5px 5px 8px #dddddd;
+}
+
+.container h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #303030;
+  text-shadow: 5px 5px 8px #b9b9b9;
+}
+
+.container .homepage_contents {
+  text-align: center;
+}
+
+.container .homepage_contents .announcement1 {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  border: 0;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 0 55px #aaaaaa;
+  margin: 60px auto 0;
+  padding: 20px;
+}
+
+.container .homepage_contents .announcement1 legend {
+  text-align: right;
+  color: #3b3b3b;
+  background: rgb(230, 230, 230);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px #d4d4d4;
+  padding-right: 12px;
+  padding-left: 16px;
+  position: absolute;
+  margin: -30px 0px 0px 50px;
+}
+
+.container .homepage_contents .announcement2 {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  border: 0;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 0 55px #aaaaaa;
+  margin: 60px auto 0;
+  padding: 20px;
+}
+
+.container .homepage_contents .announcement2 legend {
+  text-align: right;
+  color: #3b3b3b;
+  background: rgb(230, 230, 230);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px #d4d4d4;
+  padding-right: 12px;
+  padding-left: 16px;
+  position: absolute;
+  margin: -30px 0px 0px 50px;
+}
+
+.container .homepage_contents .announcement3 {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  border: 0;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0 0 55px #aaaaaa;
+  margin: 60px auto 0;
+  padding: 20px;
+}
+
+.container .homepage_contents .announcement3 legend {
+  text-align: right;
+  color: #3b3b3b;
+  background: rgb(230, 230, 230);
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 15px #d4d4d4;
+  padding-right: 12px;
+  padding-left: 16px;
+  position: absolute;
+  margin: -30px 0px 0px 50px;
+}
+
+.container .modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container .modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.container .modal-content .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container .modal-content .close:hover,
+.container .modal-content .close:focus {
+  color: rgb(255, 58, 58);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#infoButton {
+  color: #0e4486;
+  border: rgb(0, 0, 0);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+  border-radius: 10px;
+}
