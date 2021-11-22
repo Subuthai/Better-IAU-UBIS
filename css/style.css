@@ -88,6 +88,15 @@ body {
   text-shadow: 5px 5px 8px #b9b9b9;
 }
 
+.container .user-pic {
+  width: 8%;
+  height: 8%;
+  position: relative;
+  display: block;
+  margin: 20px auto 0px;
+  border-radius: 50%;
+}
+
 .container .homepage_contents {
   text-align: center;
 }
@@ -113,6 +122,60 @@ body {
   padding-left: 16px;
   position: absolute;
   margin: -30px 0px 0px 50px;
+}
+
+/*.container .homepage_contents .announcement1 .alt_item1 {
+  color: red;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.container .homepage_contents .announcement1 .alt_item2 {
+  color: red;
+  position: relative;
+}*/
+
+.container .homepage_contents .announcement1 ul {
+  border: 1px solid rgb(175, 175, 175);
+  border-radius: 5px 5px 5px 5px;
+  list-style: none;
+}
+
+.container .homepage_contents .announcement1 .first_item {
+  color: #313131;
+  text-align: left;
+  margin: 5px 10px 5px;
+  border-bottom: 1px solid rgb(160, 160, 160);
+  padding-bottom: 2px;
+}
+
+.container .homepage_contents .announcement1 .first_item:hover {
+  color: black;
+  transition: ease 0.3s;
+}
+
+.container .homepage_contents .announcement1 .li_item {
+  color: #313131;
+  text-align: left;
+  margin: 0px 10px 5px;
+  border-bottom: 1px solid rgb(160, 160, 160);
+  padding-bottom: 2px;
+}
+
+.container .homepage_contents .announcement1 .li_item:hover {
+  color: black;
+  transition: ease 0.3s;
+}
+
+.container .homepage_contents .announcement1 .last_item {
+  color: #313131;
+  text-align: left;
+  margin: 0px 10px 5px;
+}
+
+.container .homepage_contents .announcement1 .last_item:hover {
+  color: black;
+  transition: ease 0.3s;
 }
 
 .container .homepage_contents .announcement2 {
