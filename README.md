@@ -6,7 +6,7 @@
 - It's not responsive & mobile-friendly on this version! For better looking use Google Chrome on your PC.
 - Take a look: https://subuthai.github.io/Better-IAU-UBIS/
 
-### Connect with me:
+### Contact me:
 
 [<img align="left" alt="subuthai.xyz" width="22px" src="https://img.icons8.com/fluency/48/000000/globe.png" />][website]
 [<img align="left" alt="subuthai | YouTube" width="22px" src="https://img.icons8.com/fluency/48/000000/youtube-play.png" />][youtube]
